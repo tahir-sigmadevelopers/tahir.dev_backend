@@ -29,7 +29,7 @@ cloudinary.config({
 connectDB()
 
 app.use(cors({
-    origin: ["https://sigmadevelopers.vercel.app","http://localhost:5173"],
+    origin: ["https://sigmadevelopers.vercel.app","http://localhost:5173","https://tahirdev.vercel.app"],
     credentials: true
 }))
 
